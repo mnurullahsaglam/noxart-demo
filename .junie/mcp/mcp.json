@@ -1,0 +1,20 @@
+{
+    "mcpServers": {
+        "laravel-boost": {
+            "command": "/Users/nurullah/Library/Application Support/Herd/bin/php83",
+            "args": [
+                "/Users/nurullah/Sites/noxart-demo/artisan",
+                "boost:mcp"
+            ]
+        },
+        "herd": {
+            "command": "/Users/nurullah/Library/Application Support/Herd/bin/php83",
+            "args": [
+                "/Applications/Herd.app/Contents/Resources/herd-mcp.phar"
+            ],
+            "env": {
+                "SITE_PATH": "/Users/nurullah/Sites/noxart-demo"
+            }
+        }
+    }
+}
