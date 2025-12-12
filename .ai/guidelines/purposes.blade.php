@@ -1,0 +1,2 @@
+- Do not put comments in the code unless absolutely necessary.
+- Do not use fillable attribute in models. Add Model::unguard() in the AppServiceProvider instead.
